@@ -18,3 +18,8 @@ Install the requirements
 
 Run the app
 `flask run`
+
+----
+
+The HTML templates are in app/templates and they are Jinja2 templates
+http://jinja.pocoo.org/docs/2.10/
