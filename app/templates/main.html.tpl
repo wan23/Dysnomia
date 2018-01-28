@@ -3,6 +3,6 @@
 
   </head>
   <body>
-
+    Hello, <%= session['user'] %>
   </body>
 </html>

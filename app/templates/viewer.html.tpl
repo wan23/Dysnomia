@@ -1,5 +1,6 @@
 <html>
   <head>
+<<<<<<< HEAD
     <title>Abstruse</title>
 
         <link rel="stylesheet" href="css/normalize.css">
@@ -23,5 +24,11 @@
         	<br/>
           <input type="submit" value="submit"/>
         </form>
+=======
+
+  </head>
+  <body>
+
+>>>>>>> 36a94be6d300a927e5c4598d3232908bfe86c33c
   </body>
 </html>

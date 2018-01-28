@@ -16,6 +16,9 @@ Start that environment (not sure how to do this on Windows - this works for mac 
 Install the requirements
 `pip install -r requirements.txt`
 
+Set up the database
+`python create_all.py`
+
 Run the app
 `flask run`
 
