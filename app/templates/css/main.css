@@ -1,0 +1,15 @@
+header{
+
+}
+
+.logo{
+	background-color:#5aade7;
+	padding:15px 0;
+	width:100%;
+}
+
+
+.responsive{
+    max-width: 100%;
+    height: auto;
+}
