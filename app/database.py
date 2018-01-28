@@ -18,7 +18,7 @@ class Game(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     viewer_name = db.Column(db.String(80))
     typer_name = db.Column(db.String(80))
-    current_level = db.Column(db.Integer, default=0)
+    current_level = db.Column(db.Integer, default=1)
 
     def __repr__(self):
         return '<User %r>' % self.username

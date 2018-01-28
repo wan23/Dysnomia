@@ -1,6 +1,9 @@
 <html>
 <link rel="stylesheet" href="/static/css/normalize.css">
 <link rel="stylesheet" href="/static/css/main.css">
+<!-- refresh every 10 seconds to see if games are ready -->
+<meta http-equiv="refresh" content="20">
+
 </head>
 
 <body>
@@ -22,6 +25,8 @@
           <td>
             {% if game.viewer_name %}
               {{ game.viewer_name }}
+            {% elif game.typer_name == session['user'] %}
+                <span>[Waiting]</span>
             {% else %}
               <form method="POST" action="/joingame">
                 <input type="hidden" id="hviewer" name="role" value="viewer">
@@ -33,6 +38,8 @@
           <td>
             {% if game.typer_name %}
               {{ game.typer_name }}
+            {% elif game.viewer_name == session['user'] %}
+              <span>[Waiting]</span>
             {% else %}
               <form method="POST" action="/joingame">
                 <input type="hidden" id="htyper" name="role" value="typer">
@@ -42,7 +49,7 @@
             {% endif %}
           </td>
           {% if game.typer_name and game.viewer_name and session['user'] == game.typer_name or session['user'] == game.viewer_name %}
-            <td><a href="/game">Play Now!</a></td>
+            <td><a href="/game/{{ game.id }}">Play Now!</a></td>
           {% endif %}
         </tr>
       {% endfor %}
