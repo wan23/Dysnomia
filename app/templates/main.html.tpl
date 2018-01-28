@@ -1,8 +1,14 @@
 <html>
-  <head>
+<link rel="stylesheet" href="/static/css/normalize.css">
+<link rel="stylesheet" href="/static/css/main.css">
+</head>
 
-  </head>
-  <body>
+<body>
+<header>
+
+<img class="logo" src="/static/img/logo.png">
+
+	</header>
     Hello, {{session['user']}}
 
     <br/>
