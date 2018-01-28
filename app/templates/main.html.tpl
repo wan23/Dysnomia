@@ -35,6 +35,9 @@
               </form>
             {% endif %}
           </td>
+          {% if game.typer_name and game.viewer_name and session['user'] == game.typer_name or session['user'] == game.viewer_name %}
+            <td><a href="/game">Play Now!</a></td>
+          {% endif %}
         </tr>
       {% endfor %}
     </table>

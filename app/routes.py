@@ -68,5 +68,14 @@ def joingame():
         return 'ERROR'
 
 @app.route('/game')
-def game(session, user, role, level):
-    return render_template('game.html.tpl', role=role, user=user, level=level)
+def game():
+    if 'current_game' not in session:
+        return redirect(url_for('main'))
+    game = Game.query.filter(Game.id == session['current_game']).first()
+    if not game:
+        del session['current_game']
+        return redirect(url_for('main'))
+    if game.viewer_name == session['user']:
+        return render_template('viewer.html.tpl', game=game)
+    elif game.typer_name == session['user']:
+        return render_template('typer.html.tpl', game=game)
