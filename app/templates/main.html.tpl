@@ -19,6 +19,7 @@
             {% else %}
               <form method="POST" action="/joingame">
                 <input type="hidden" id="hviewer" name="role" value="viewer">
+                <input type="hidden" name="gameid" value="{{ game.id }}">
                 <input type="submit" name="submit" text="submit" value="Join"/>
               </form>
             {% endif %}
