@@ -27,7 +27,7 @@
     LEVEL {{ level.number }}
   </div>
   <div class="question-image">
-    <image src="{{ level.image_url }}">
+    <image class="responsive" src="{{ level.image_url }}">
   </div>
   </body>
 </html>
