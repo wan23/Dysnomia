@@ -75,10 +75,11 @@ header{
     margin:0 auto;
     max-height:100%;
     height:auto;
+    padding: 10px 0;
 }
 
 body{
-    background-image:url(static/image/BackgroundHalfFade.jpg);
+    background-image:url(static/BackgroundHalfFade.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
