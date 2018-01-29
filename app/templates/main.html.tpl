@@ -13,12 +13,15 @@
 
 </header>
   <section>
-  Hello, {{session['user']}}
+  <h1> Hello, {{session['user']}} </h1>
 
   <br/>
 
-    Open Games:
-    <table class="games-table" border="1"><tr>
+
+    <table class="games-table" border="1">
+    <tr><td colspan="2">Open Games:</td>  
+    </tr>
+    <tr>
       <th>Game Number</th><th>Viewer</th><th>Typer</th><tr>
       {% for game in games %}
         <tr>
