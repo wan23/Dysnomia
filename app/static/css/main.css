@@ -104,7 +104,7 @@ responsive{
     max-width:100%;
 
 }
-.level-display, .question, .hint{
+.greeting, .level-display, .question, .hint{
     padding:2vh;
 }
 
