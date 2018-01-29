@@ -84,13 +84,16 @@ body{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    background-position: center center;
     -o-background-size: cover;
     min-height: 90vh;
     text-align: center;
     
 }
 
-
+.games-table{
+    margin:0 auto;
+}
 
 
 
