@@ -88,11 +88,16 @@ body{
     -o-background-size: cover;
     min-height: 90vh;
     text-align: center;
-    color:3fff;
+    color:#fff;
+
 }
 
 .games-table{
     margin:0 auto;
+}
+
+td{
+    padding:2vh;
 }
 
 
