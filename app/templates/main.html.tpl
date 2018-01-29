@@ -11,7 +11,7 @@
 
 <img class="logo" src="/static/img/logo.png">
 
-	</header>
+</header>
   <section>
   Hello, {{session['user']}}
 
