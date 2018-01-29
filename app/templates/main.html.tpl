@@ -12,9 +12,10 @@
 <img class="logo" src="/static/img/logo.png">
 
 	</header>
-    Hello, {{session['user']}}
+  <section>
+  Hello, {{session['user']}}
 
-    <br/>
+  <br/>
 
     Open Games:
     <table border="1"><tr>
@@ -67,5 +68,6 @@
     <label for="typer">Typer</label>
       <input type="submit" name="submit" text="submit" value="submit"/>
     </form>
+  </section>
   </body>
 </html>
