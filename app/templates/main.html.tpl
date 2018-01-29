@@ -19,7 +19,7 @@
 
 
     <table class="games-table" border="1">
-    <tr><td colspan="2">Open Games:</td>  
+    <tr><td colspan="3">OPEN GAMES</td>  
     </tr>
     <tr>
       <th>Game Number</th><th>Viewer</th><th>Typer</th><tr>
