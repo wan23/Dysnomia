@@ -78,6 +78,12 @@ header{
 }
 
 body{
+    background-image:url(static/image/BackgroundHalfFade.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    min-height: 90vh;
 
     
 }
