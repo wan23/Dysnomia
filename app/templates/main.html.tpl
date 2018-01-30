@@ -18,8 +18,22 @@
   <br/>
 
 
+    Create Game:
+    <form method="POST" action="/newgame">
+      <input type="radio" id="viewer"
+     name="role" value="viewer">
+    <label for="viewer">Viewer</label>
+
+    <input type="radio" id="typer"
+     name="role" value="typer">
+    <label for="typer">Typer</label>
+      <input type="submit" name="submit" text="submit" value="submit"/>
+    </form>
+
+
+
     <table class="games-table" border="1">
-    <tr><td colspan="4">OPEN GAMES</td>  
+    <tr><td colspan="4">ACTIVE GAMES</td>  
     </tr>
     <tr>
       <th>Game Number</th><th>Viewer</th><th>Typer</th><tr>
@@ -53,24 +67,13 @@
             {% endif %}
           </td>
           {% if game.typer_name and game.viewer_name and session['user'] == game.typer_name or session['user'] == game.viewer_name %}
-            <td><a href="/game/{{ game.id }}">Play Now!</a></td>
+            <td class="play"><a href="/game/{{ game.id }}">Play Now!</a></td>
           {% endif %}
         </tr>
       {% endfor %}
     </table>
     <hr/>
     <br/>
-    Create Game:
-    <form method="POST" action="/newgame">
-      <input type="radio" id="viewer"
-     name="role" value="viewer">
-    <label for="viewer">Viewer</label>
-
-    <input type="radio" id="typer"
-     name="role" value="typer">
-    <label for="typer">Typer</label>
-      <input type="submit" name="submit" text="submit" value="submit"/>
-    </form>
   </section>
   </body>
 </html>

@@ -80,7 +80,7 @@ header{
 }
 
 body{
-    background-image:url(../BackgroundHalfFade.jpg);
+    background-image:url(../BackgroundHalf.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -99,6 +99,10 @@ body{
 
 td, th{
     padding:2vh;
+}
+
+.play{
+    background-color:#fae317;
 }
 
 .responsive{
