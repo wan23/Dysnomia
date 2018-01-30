@@ -136,7 +136,7 @@ form{
 }
 
 .responsive{
-    width:90vmin;
+    width:95vmin;
 
 }
 
@@ -170,19 +170,19 @@ a:visited{
 @media (min-width:768px) {
 
     body{
-        font-size:3vw;
+        font-size:3vmax;
     }
 }
 
 @media (min-width:992px){
     body{
-        font-size:3vw;
+        font-size:4vmax;
     }
 }
 
 @media (min-width:1200px){
     body{
-        font-size:3vw;
+        font-size:5vmax;
     }
 }
 
