@@ -88,17 +88,20 @@ body{
     -o-background-size: cover;
     min-height: 90vh;
     text-align: center;
-    text-shadow:  0px 0px 2px rgba(37, 37, 37, 0.72);
-
+    text-shadow:  0px 0px 8px rgba(37, 37, 37, 0.72);
+    color:rgb(201, 201, 201);
 }
 
 .games-table{
     margin:0 auto;
     text-align:center;
 }
+form{
+    margin:2vh 2vw;
+}
 
 td, th{
-    padding:2vh;
+    padding:2vh 2vw;
 }
 
 .play{
@@ -110,7 +113,7 @@ td, th{
 
 }
 .greeting, .level-display, .question, .hint{
-    padding:2vh;
+    padding:2vh 2vw;
 }
 
 
