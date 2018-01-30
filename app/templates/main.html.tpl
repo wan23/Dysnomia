@@ -29,7 +29,7 @@
      name="role" value="typer">
     <label for="typer">Typer</label>
     <br/>
-      <input type="submit" name="submit" text="submit" value="submit"/>
+      <input type="submit" name="submit" text="Create!" value="submit"/>
     <br/>
     </form>
 

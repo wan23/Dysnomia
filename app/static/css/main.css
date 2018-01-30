@@ -134,6 +134,7 @@ form{
 }
 input[type=submit]{
     padding:2vh 2vw;
+    margin:2vh 0;
 }
 
 a{
