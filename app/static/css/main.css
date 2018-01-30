@@ -128,10 +128,13 @@ form{
 
 }
 
-.play, submit{
-    background-color:#fae317;
+.play, input[type=submit] {
+    background-color:#47aedd;
     font-weight:bold;
     color:#fff;
+}
+input[type=submit]{
+    padding:2vh 2vw;
 }
 
 a{
