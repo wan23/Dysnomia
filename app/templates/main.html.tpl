@@ -33,7 +33,7 @@
 
 
     <table class="games-table" border="1">
-    <tr><td colspan="4">ACTIVE GAMES</td>  
+    <tr><th colspan="4">ACTIVE GAMES</th>  
     </tr>
     <tr>
       <th>Game Number</th><th>Viewer</th><th>Typer</th><tr>
@@ -72,7 +72,6 @@
         </tr>
       {% endfor %}
     </table>
-    <hr/>
     <br/>
   </section>
   </body>
