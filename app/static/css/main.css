@@ -128,7 +128,9 @@ form{
     font-size:2rem
 }
 
-
+.question, .hint{
+    font-size:2.5rem
+}
 
 .responsive{
     width:90%;
