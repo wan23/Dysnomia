@@ -23,8 +23,8 @@
     <h2> Create Game? </h2>
       <input type="radio" id="viewer"
      name="role" value="viewer">
-    <label for="viewer">Viewer</label>
-    <br />
+    <label for="viewer">Viewer |</label>
+    
     <input type="radio" id="typer"
      name="role" value="typer">
     <label for="typer">Typer</label>
