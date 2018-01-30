@@ -92,7 +92,6 @@ body{
     text-align: center;
     text-shadow:  0px 0px 8px rgba(37, 37, 37, 0.72);
     color:rgb(231, 247, 253);
-    font-size:1vw;
 }
 
 .game{
@@ -173,14 +172,21 @@ a:visited{
         width:50%;
     
     }
+    body{
+        font-size:12px;
+    }
 }
 
 @media (min-width:992px){
-
+    body{
+        font-size:16px;
+    }
 }
 
 @media (min-width:1200px){
-
+    body{
+        font-size:24px;
+    }
 
 }
 
