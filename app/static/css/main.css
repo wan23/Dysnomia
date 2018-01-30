@@ -168,26 +168,26 @@ a:visited{
 
 
 @media (min-width:768px) {
-    .responsive{
-        width:50%;
-    
-    }
+
     body{
-        font-size:12px;
+        font-size:3vw;
     }
 }
 
 @media (min-width:992px){
     body{
-        font-size:16px;
+        font-size:3vw;
     }
 }
 
 @media (min-width:1200px){
     body{
-        font-size:24px;
+        font-size:3vw;
     }
-
+    .responsive{
+        width:50%;
+    
+    }
 }
 
 
