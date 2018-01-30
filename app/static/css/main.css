@@ -108,8 +108,9 @@ td, th{
 }
 
 .greeting{
-    font-size:3rem;
+    font-size:2.75rem;
     margin:0;
+    color:#fff;
 }
 h2{
     margin:0;
@@ -135,7 +136,7 @@ form{
 input[type=submit]{
     padding:2vh 2vw;
     margin:2vh 0;
-    font-size:2rem;
+    font-size:1.5rem;
 }
 
 a{
