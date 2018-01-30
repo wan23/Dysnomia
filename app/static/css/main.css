@@ -168,11 +168,20 @@ a:visited{
 
 
 
-@media (min-width: 992px) {
+@media (min-width:768px) {
     .responsive{
         width:50%;
     
     }
+}
+
+@media (min-width:992px){
+
+}
+
+@media (min-width:1200px){
+
+
 }
 
 
