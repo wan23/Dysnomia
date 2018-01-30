@@ -168,7 +168,12 @@ a:visited{
 
 
 
-
+@media (min-width: 992px) {
+    .responsive{
+        width:50%;
+    
+    }
+}
 
 
 
