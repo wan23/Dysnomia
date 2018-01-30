@@ -13,14 +13,14 @@
 
 </header>
   <section>
-  <h1 class="greeting"> Hello, {{session['user']}}!</h1>
+  <h1 class="greeting"> Hey {{session['user']}}!</h1>
 
   <br/>
 
 
     
     <form class="create-game" method="POST" action="/newgame">
-    <h2> Create Game: </h2>
+    <h2> Create Game? </h2>
       <input type="radio" id="viewer"
      name="role" value="viewer">
     <label for="viewer">Viewer</label>
