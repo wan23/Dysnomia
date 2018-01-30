@@ -19,7 +19,7 @@
 
 
     
-    <form method="POST" action="/newgame">
+    <form class="create-game" method="POST" action="/newgame">
     <h2> Create Game: </h2>
       <input type="radio" id="viewer"
      name="role" value="viewer">

@@ -99,7 +99,7 @@ body{
     text-align:center;
     background-color:rgba(0, 0, 0, 0.5)
 }
-form{
+.create-game{
     margin:2vh 2vw;
 }
 
