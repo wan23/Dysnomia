@@ -13,7 +13,7 @@
 
 </header>
   <section>
-  <h1 class="greeting"> Hello, {{session['user']}} </h1>
+  <h1 class="greeting"> Hello, {{session['user']}}!</h1>
 
   <br/>
 
