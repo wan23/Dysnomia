@@ -24,7 +24,7 @@
     {% endif %}
   {% endwith %}
   <div class='level-display'>
-    LEVEL {{ level.number }}
+   <h2> LEVEL {{ level.number }}</h2>
   </div>
   <div class="question-image">
     <image class="responsive" src="{{ level.image_url }}">

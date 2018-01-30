@@ -93,6 +93,11 @@ body{
     font-size:1vw;
 }
 
+.game{
+    background-image:url(../BackgroundHalfFade.jpg);
+}
+
+
 .games-table{
     margin:0 auto;
     text-align:center;
