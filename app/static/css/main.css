@@ -90,8 +90,7 @@ body{
     text-align: center;
     text-shadow:  0px 0px 8px rgba(37, 37, 37, 0.72);
     color:rgb(231, 247, 253);
-    font-size:0.5vw;
-
+    font-size:1vw;
 }
 
 .games-table{
@@ -114,7 +113,7 @@ td, th{
 }
 h2{
     margin:0;
-    font-size:2.5rem;
+    font-size:2rem;
 }
 
 form{
