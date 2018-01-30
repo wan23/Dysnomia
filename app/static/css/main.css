@@ -171,13 +171,13 @@ a:visited{
 @media (min-width:768px) {
 
     body{
-        font-size:3vmax;
+        font-size:5vmax;
     }
 }
 
 @media (min-width:992px){
     body{
-        font-size:4vmax;
+        font-size:5vmax;
     }
 }
 
