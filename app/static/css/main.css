@@ -84,11 +84,11 @@ body{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    background-position: center center;
     -o-background-size: cover;
-    background-repeat:no-repeat;
     min-height: 90vh;
     text-align: center;
-    position:fixed;
+    text-shadow: 2px 2px #000000;
 
 }
 
