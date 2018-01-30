@@ -8,10 +8,10 @@
         <link rel="stylesheet" href="/static/css/main.css">
   </head>
 
-  <body>
+  <body class="game">
 	<header>
 
-<img class="logo responsive" src="/static/img/logo.png">
+<img class="logo" src="/static/img/logo.png">
 
 	</header>
   {% with messages = get_flashed_messages() %}
