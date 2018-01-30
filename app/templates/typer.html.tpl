@@ -25,7 +25,7 @@
    <h2> LEVEL {{ level.number }} </h2>
   </div>
   <div class="question">
-    <h1>{{ level.question }}</h1>
+{{ level.question }}
   </div>
   <form class="answer" action="/answer" method="POST">
     <input type="text" name="answer" required>
