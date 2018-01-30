@@ -15,7 +15,7 @@
 
 
 
-
+<h1 class="greeting"> Enter your player name! </h1>
         <form action="/login" method="POST"><input type="text" name="user"/>
           <input type="submit" value="submit"/>
         </form>
