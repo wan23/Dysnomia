@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="/static/css/main.css">
   </head>
 
-  <body>
+  <body class="game">
 	<header>
 
 <img class="logo" src="/static/img/logo.png">
@@ -22,10 +22,10 @@
     {% endif %}
   {% endwith %}
   <div class='level-display'>
-    LEVEL {{ level.number }}
+   <h2> LEVEL {{ level.number }} </h2>
   </div>
   <div class="question">
-    {{ level.question }}
+    <h1>{{ level.question }}</h1>
   </div>
   <form class="answer" action="/answer" method="POST">
     <input type="text" name="answer" required>
