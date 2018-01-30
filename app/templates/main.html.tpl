@@ -18,16 +18,19 @@
   <br/>
 
 
-    Create Game:
+    
     <form method="POST" action="/newgame">
+    <h2> Create Game: </h2>
       <input type="radio" id="viewer"
      name="role" value="viewer">
     <label for="viewer">Viewer</label>
-
+    <br />
     <input type="radio" id="typer"
      name="role" value="typer">
     <label for="typer">Typer</label>
+    <br/>
       <input type="submit" name="submit" text="submit" value="submit"/>
+    <br/>
     </form>
 
 

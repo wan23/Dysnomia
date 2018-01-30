@@ -110,6 +110,10 @@ td, th{
 .greeting{
     font-size:3rem;
 }
+h2{
+    font-size:2.5rem;
+}
+
 form{
     font-size:2rem
 }
@@ -130,6 +134,10 @@ form{
 a{
     text-decoration: none;
     font-weight:bold;
+    color:#fff;
+}
+
+a:visited{
     color:#fff;
 }
 
