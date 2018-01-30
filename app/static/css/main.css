@@ -97,11 +97,11 @@ body{
     text-align:center;
 }
 
-td{
+td, th{
     padding:2vh;
 }
 
-responsive{
+.responsive{
     max-width:100%;
 
 }
