@@ -89,7 +89,7 @@ body{
     min-height: 90vh;
     text-align: center;
     text-shadow:  0px 0px 8px rgba(37, 37, 37, 0.72);
-    color:rgb(201, 201, 201);
+    color:rgb(231, 247, 253);
 }
 
 .games-table{
@@ -105,14 +105,25 @@ td, th{
     padding:2vh 2vw;
 }
 
-.play{
-    background-color:#fae317;
-}
+
 
 .responsive{
     max-width:100%;
 
 }
+
+.play, submit{
+    background-color:#fae317;
+    font-weight:bold;
+    color:#fff;
+}
+
+a{
+    text-decoration: none;
+    font-weight:bold;
+    color:#fff;
+}
+
 .greeting, .level-display, .question, .hint{
     padding:2vh 2vw;
 }
